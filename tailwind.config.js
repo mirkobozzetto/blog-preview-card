@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["./**/*.{html,js}"],
   theme: {
     extend: {
       colors: {
@@ -15,6 +15,9 @@ module.exports = {
       fontWeight: {
         medium: 500,
         "extra-bold": 800,
+      },
+      boxShadow: {
+        "bottom-right": "8px 8px 0 0 #000",
       },
     },
   },
