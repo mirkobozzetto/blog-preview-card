@@ -14,12 +14,12 @@
 
     <title>Frontend Mentor | Blog preview card</title>
   </head>
-
+  <!--  -->
   <body
     class="flex flex-col justify-center items-center bg-yellow h-screen font-figtree"
   >
     <main
-      class="shadow-bottom-right border-2 bg-white p-5 border-black border-solid rounded-lg h-auto"
+      class="shadow-bottom-right border-2 bg-white m-3 p-5 border-black border-solid rounded-lg h-auto"
     >
       <section class="w-full">
         <div>
@@ -30,22 +30,30 @@
         </div>
         <!-- #tag -->
         <p
-          class="inline-block bg-yellow mt-5 px-2.5 py-0.5 rounded-md font-extra-bold text-[0.79rem]"
+          class="inline-block bg-yellow mt-5 px-2.5 py-0.5 rounded-md font-extra-bold text-[0.69rem] md:text-[0.79rem]"
         >
           Learning
         </p>
         <!-- date -->
-        <p class="mt-3 font-medium text-xs">Published 21 Dec 2023</p>
-        <h1 class="my-2 font-extra-bold text-[1.25rem]">
+        <p class="mt-3 font-medium text-[0.59rem] md:text-xs">
+          Published 21 Dec 2023
+        </p>
+        <!-- title -->
+        <h1 class="my-2 font-extra-bold text-[1.1rem] md:text-[1.25rem]">
           HTML & CSS foundations
         </h1>
         <!-- caption -->
-        <figcaption class="block text-[0.81rem] text-grey">
+        <figcaption class="block text-[0.59rem] text-grey md:text-[0.81rem]">
           <span class="block">These languages are the backbone of every</span>
           <span class="block">website, defining structure, content, and</span>
           <span class="block">presentation.</span>
         </figcaption>
       </section>
+      <!-- author -->
+      <div class="flex flex-row items-center mt-4">
+        <img src="./assets/images/image-avatar.webp" class="size-6" />
+        <p class="ml-2 font-extrabold text-[0.59rem] text-xs">Greg Hooper</p>
+      </div>
     </main>
   </body>
 </html>

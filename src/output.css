@@ -715,6 +715,10 @@ video {
   clear: none;
 }
 
+.m-3 {
+  margin: 0.75rem;
+}
+
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -747,6 +751,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
 }
 
 .box-border {
@@ -846,6 +854,26 @@ video {
 
 .hidden {
   display: none;
+}
+
+.size-1 {
+  width: 0.25rem;
+  height: 0.25rem;
+}
+
+.size-3 {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.size-5 {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .h-auto {
@@ -2155,6 +2183,18 @@ video {
   font-size: 0.79rem;
 }
 
+.text-\[0\.69rem\] {
+  font-size: 0.69rem;
+}
+
+.text-\[1\.1rem\] {
+  font-size: 1.1rem;
+}
+
+.text-\[0\.59rem\] {
+  font-size: 0.59rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2169,6 +2209,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
@@ -2694,6 +2738,25 @@ video {
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:text-\[0\.79rem\] {
+    font-size: 0.79rem;
+  }
+
+  .md\:text-\[1\.25rem\] {
+    font-size: 1.25rem;
+  }
+
+  .md\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .md\:text-\[0\.81rem\] {
+    font-size: 0.81rem;
   }
 }
 
