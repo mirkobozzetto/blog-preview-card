@@ -720,6 +720,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -730,6 +735,18 @@ video {
 
 .mt-4 {
   margin-top: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .box-border {
@@ -1991,6 +2008,21 @@ video {
   padding-right: 0.75rem;
 }
 
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.px-2\.5 {
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+}
+
 .pt-1 {
   padding-top: 0.25rem;
 }
@@ -2099,6 +2131,30 @@ video {
   font-size: 1.25rem;
 }
 
+.text-\[0\.7rem\] {
+  font-size: 0.7rem;
+}
+
+.text-\[0\.9rem\] {
+  font-size: 0.9rem;
+}
+
+.text-\[0\.8rem\] {
+  font-size: 0.8rem;
+}
+
+.text-\[0\.82rem\] {
+  font-size: 0.82rem;
+}
+
+.text-\[0\.81rem\] {
+  font-size: 0.81rem;
+}
+
+.text-\[0\.79rem\] {
+  font-size: 0.79rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2109,6 +2165,10 @@ video {
 
 .font-extra-bold {
   font-weight: 800;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -2186,6 +2246,11 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-grey {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 50% / var(--tw-text-opacity));
 }
 
 .underline {
